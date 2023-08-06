@@ -3,9 +3,12 @@
 DEBIAN_FRONTEND=noninteractive
 
 # Clone Upstream
-mkdir -p ./src-pkg-name
-cp -rvf ./debian ./src-pkg-name/
-cd ./src-pkg-name/
+git clone https://github.com/xhess/apt-btrfs-snapper
+cp -rvf ./debian ./apt-btrfs-snapper/
+cd ./apt-btrfs-snapper/
+chmod +x apt-btrfs-snapper
+chmod +x 80snapper
+
 
 # Get build deps
 apt-get build-dep ./ -y
