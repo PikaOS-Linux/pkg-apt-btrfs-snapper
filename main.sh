@@ -8,6 +8,7 @@ cp -rvf ./debian ./apt-btrfs-snapper/
 cd ./apt-btrfs-snapper/
 chmod +x apt-btrfs-snapper
 chmod +x 80snapper
+mv 80snapper 80apt-btrfs-snapper
 
 
 # Get build deps
