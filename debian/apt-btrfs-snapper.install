@@ -1,2 +1,2 @@
 apt-btrfs-snapper usr/bin/
-80snapper  etc/apt/apt.conf.d/
+80apt-btrfs-snapper  etc/apt/apt.conf.d/
